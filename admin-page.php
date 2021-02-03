@@ -36,7 +36,7 @@
 			<div class="newparty">
 				<p>Add New Party</p>
 				<input type="text"class="form-control" name="" placeholder="Party Name" id="addparty">
-				<input type="button" class="form-control" id="add-btn" name=""value="ADD NOW">
+				<input type="button" class="form-control" id="add-btn" name=""value="ADD NOW" onclick="newParty()">
 			</div>
 		</div>
 					
