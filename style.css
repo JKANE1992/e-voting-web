@@ -1,0 +1,132 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+/*front page landing/login page start */
+.contains{
+	text-align: center;
+	background-image: url('background.jpg');
+	background-repeat: no-repeat;
+	background-position:center top;
+	background-size: cover;
+	height: 100vh;	
+	overflow-x: hidden;
+}
+.mainHead{
+	margin-top: 5.5em;
+	color: #fff;
+}
+.contains .mainHead hr{
+ width: 80%;
+}
+.login-box{
+	width:310px;
+	min-height: 210px;
+	border-radius: 20px;
+	background-color: #ffffff;
+	margin-top: 5.3em;
+	opacity:0.9; 
+}
+.login-box h5{
+	text-align: left;
+}
+.login-box .input-group{
+	padding-left:10px;
+	padding-right:10px;
+	margin-top: 15px;
+	padding-top: 0.5em;
+	width: 100%;
+	height: ; 
+	background-color: #FFF;
+}
+#bg-btn{
+	background-color: #207FE5;
+	color: #FFF;
+}
+/*front page landing/login page end*/
+/*navigation bar*/
+.bgcolor{
+	background-color: #171717;
+}
+.navbar-header a{
+	color: #ffAcff;
+	/*margin-left:151px;*/
+	}
+.navbar-right{
+	/*padding-right: 50px;*/
+}
+.navbar-right li{
+	list-style: none;
+	display: inline;
+	/*margin-right: 9px;*/
+}
+.navbar-right li a{
+		color: #ffAcff;
+		text-decoration: none;
+}
+.navbar-right li #Admin{
+	color: #fff;
+	background-color: #000;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+/*navigation bar ended*/
+/*main content start*/
+.win{
+	width: 220px;
+	height:fit-content;
+	text-align: center;
+	background-color: #330c00;
+	color: #fff;
+	font-size: 25px;
+	margin:35px 8px 0px 35px; 
+	padding: 10px 16px 10px 16px;
+}
+.win hr{
+	background-color: #fff;
+}
+.newparty{
+	width:197px;
+	/*height:161px;*/
+	height: fit-content;
+	border: 1px solid grey;
+	border-top: 4px solid #330c00;
+	text-align: center;
+	padding: 10px 12px 10px 12px;
+	margin:35px 8px 0px 8px; 
+	line-height:3;
+}
+.newparty #add-btn{
+	margin-top:1.7em;
+	color: #fff;
+	background-color:#FF7F50; 
+}
+.add-remove{
+	width:200px;
+	height: fit-content;
+	border: 1px solid grey;
+	border-top: 4px solid #330c00;
+	text-align: center;
+	padding: 10px 15px 10px 15px;
+	margin:35px 0px 0px 15px; 
+	line-height:3;
+}
+.add-remove #add-btn{
+	margin-top:1.7em;
+	color: #fff;
+	background-color:#FF7F50; 
+}
+.partytable{
+	text-align: center;
+}
+
+.partytable span{
+		font-size: 21px;
+		margin-bottom: 21px;
+}
+.partytable .thead-color{
+		background-color:rgb(176,224,230);
+	}
