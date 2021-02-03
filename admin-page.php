@@ -35,7 +35,7 @@
 			<!-- Ne\ew party addition -->
 			<div class="newparty">
 				<p>Add New Party</p>
-				<input type="text"class="form-control" name="" placeholder="Party Name">
+				<input type="text"class="form-control" name="" placeholder="Party Name" id="addparty">
 				<input type="button" class="form-control" id="add-btn" name=""value="ADD NOW">
 			</div>
 		</div>
@@ -90,6 +90,7 @@
       <th>Vote</th>
       <th>Action</th>
     </tr>
+	  <p id="add"></p>
   </thead>
 </table>
 	</div>
@@ -101,5 +102,6 @@
 	document.getElementById("add").innerHTML="<tr><td>1</td><td>Partname</td><td>0</td><td><button>Remove</button></td></tr>";
 	// alert("Party Added sucessfully");
 }
+	</script>
 </body>
 </html>
